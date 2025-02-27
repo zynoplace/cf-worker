@@ -118,7 +118,7 @@ export default {
 			//console.log(订阅转换URL);
 			let req_data = MainData;
 
-			let 追加UA = 'v2rayn';
+			let 追加UA = 'Clash';
 			if (url.searchParams.has('b64') || url.searchParams.has('base64')) 订阅格式 = 'base64';
 			else if (url.searchParams.has('clash')) 追加UA = 'clash';
 			else if (url.searchParams.has('singbox')) 追加UA = 'singbox';
